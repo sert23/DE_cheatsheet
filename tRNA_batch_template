@@ -1,0 +1,20 @@
+
+sRNAde input= output= grpString=  matrixDesc= sampleDesc= dbPath=/opt/sRNAtoolboxDB/ minRCexpr=0 diffExprFiles=hsa_tRNA_full_sense.grouped 
+
+dbPath=/opt/sRNAtoolboxDB/ diffExprFiles=tRNA_classificationFull.txt minRCexpr=0
+
+
+dbPath=/opt/sRNAtoolboxDB/ diffExprFiles=GRCh38_p10_sn-snoRNA_sense.grouped minRCexpr=0
+
+dbPath=/opt/sRNAtoolboxDB/ stat=true statFiles=tRNA#sense.readLen colData=4 minRCdata=0 diffExpr=false folderData=readLength
+
+dbPath=/opt/sRNAtoolboxDB/ stat=true statFiles=miRNA#sense.readLen colData=4 minRCdata=0 diffExpr=false folderData=readLength
+
+dbPath=/opt/sRNAtoolboxDB/ stat=true statFiles=tRNA#sense.readLen colData=4 minRCdata=0 diffExpr=false folderData=readLength
+
+dbPath=/opt/sRNAtoolboxDB/ stat=true statFiles=snoRNA#sense.readLen colData=4 minRCdata=0 diffExpr=false folderData=readLength
+
+
+dbPath=/opt/sRNAtoolboxDB/ stat=true statFiles=mappingStat.txt colData=4 minRCdata=0 diffExpr=false folderData=stat
+
+dbPath=/opt/sRNAtoolboxDB/ stat=true statFiles=tRNA_anticodon.txt colData=4 minRCdata=0 diffExpr=false
